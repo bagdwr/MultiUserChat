@@ -100,6 +100,7 @@ public class Client {
 
     public static void main(String[] args) {
         Client client=new Client();
+        userClientData= new UserClientData();
         gui=new ClientGui(client);
         gui.drawGui();
         while (true){
